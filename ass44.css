@@ -1,0 +1,22 @@
+ div{
+                height:200px;
+                width:200px;
+                float: left;
+                margin: 10px;
+            }
+#one{
+    background: -webkit-linear-gradient(deepskyblue,deeppink);
+    background: -moz-linear-gradient(80deg,deepskyblue,deeppink);
+}
+#two{
+    background: -webkit-radial-gradient(circle,deepskyblue,deeppink,yellow);
+    background: -moz-radial-gradient(circle,deepskyblue,deeppink,yellow);
+}
+#three{
+    background: -webkit-linear-gradient(deepskyblue 40%,deeppink,yellow 80%);
+    background: -moz-linear-gradient(deepskyblue 40%,deeppink,yellow 80%);
+}
+#four{
+    background: -webkit-repeating-radial-gradient(deepskyblue, deeppink 10% ,yellow 15%);
+    background: -moz-repeating-radial-gradient(deepskyblue, deeppink 10% yellow 15%);
+}
